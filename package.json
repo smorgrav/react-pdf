@@ -40,7 +40,7 @@
     "yoga-layout-prebuilt": "^1.9.3"
   },
   "peerDependencies": {
-    "react": "^16.0.0"
+    "react": "^17.0.1"
   },
   "devDependencies": {
     "@babel/cli": "^7.2.3",
@@ -56,7 +56,7 @@
     "bundlesize": "^0.17.1",
     "chalk": "^2.4.2",
     "enzyme": "^3.9.0",
-    "enzyme-adapter-react-16": "^1.9.1",
+    "@wojtekmaj/enzyme-adapter-react-17": "^0.4.1",
     "eslint": "^5.14.1",
     "eslint-config-prettier": "^4.0.0",
     "eslint-plugin-jest": "^22.3.0",
@@ -70,8 +70,8 @@
     "mock-fs": "^4.8.0",
     "mockdate": "^2.0.2",
     "prettier": "^1.16.4",
-    "react": "^16.9.0",
-    "react-dom": "^16.9.0",
+    "react": "17.0.1",
+    "react-dom": "17.0.1",
     "rimraf": "^2.6.3",
     "rollup": "^1.2.3",
     "rollup-plugin-alias": "^1.5.1",
