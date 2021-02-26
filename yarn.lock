@@ -5459,14 +5459,14 @@
   "resolved" "https://registry.yarnpkg.com/react-is/-/react-is-16.8.4.tgz"
   "version" "16.8.4"
 
-"react-reconciler@^0.26.1":
-  "integrity" "sha512-6E/CvH9zcDmHjhiNJlP0qJ8+3ufnY2b5RWs774Uy8XKWN0l6qfnlkz0XnDacxqj2rbJdq76w9dlFXjPPOQrmqA=="
-  "resolved" "https://registry.npmjs.org/react-reconciler/-/react-reconciler-0.26.1.tgz"
-  "version" "0.26.1"
+"react-reconciler@^0.0.0-9209c30ff":
+  "integrity" "sha512-Vl5WreLWi3YhUYqRflFx1t4Sz/loNWeaIfsPAoR2lBTbk5+MCjPH9aqEgzv68GGHcxJmHr690p1G7qM8ez+xxA=="
+  "resolved" "https://registry.npmjs.org/react-reconciler/-/react-reconciler-0.0.0-9209c30ff.tgz"
+  "version" "0.0.0-9209c30ff"
   dependencies:
     "loose-envify" "^1.1.0"
     "object-assign" "^4.1.1"
-    "scheduler" "^0.20.1"
+    "scheduler" "0.0.0-9209c30ff"
 
 "react-shallow-renderer@^16.13.1":
   "integrity" "sha512-rkIMcQi01/+kxiTE9D3fdS959U1g7gs+/rborw++42m1O9FAQiNI/UNRZExVUoAOprn4umcXf+pFRou8i4zuBg=="
@@ -5486,7 +5486,7 @@
     "react-shallow-renderer" "^16.13.1"
     "scheduler" "^0.20.1"
 
-"react@^0.14 || ^15.0.0 || ^16.0.0-alpha", "react@^16.0.0 || ^17.0.0", "react@^17.0.0-0", "react@^17.0.1", "react@0.13.x || 0.14.x || ^15.0.0-0 || ^16.0.0-0", "react@17.0.1":
+"react@^0.14 || ^15.0.0 || ^16.0.0-alpha", "react@^16.0.0 || ^17.0.0", "react@^17.0.0-0", "react@0.0.0-9209c30ff", "react@0.13.x || 0.14.x || ^15.0.0-0 || ^16.0.0-0", "react@17.0.1":
   "integrity" "sha512-lG9c9UuMHdcAexXtigOZLX8exLWkW0Ku29qPRU8uhF2R9BN96dLCt0psvzPLlHc5OWkgymP3qwTRgbnw5BKx3w=="
   "resolved" "https://registry.yarnpkg.com/react/-/react-17.0.1.tgz"
   "version" "17.0.1"
@@ -6005,6 +6005,14 @@
   "integrity" "sha512-LKTe+2xNJBNxu/QhHvDR14wUXHRQbVY5ZOYpOGWRzhydZUqrLb2JBvLPY7cAqFmqrWuDED0Mjk7013SZiOz6Bw=="
   "resolved" "https://registry.yarnpkg.com/scheduler/-/scheduler-0.20.1.tgz"
   "version" "0.20.1"
+  dependencies:
+    "loose-envify" "^1.1.0"
+    "object-assign" "^4.1.1"
+
+"scheduler@0.0.0-9209c30ff":
+  "integrity" "sha512-Jcm7d5gKEooyVy8zF80ErP4OjbX8N+OuGfOdEeWoqB8ffw/BnKYRBoHugfMFTPIOvKo0h7qNudRtNXtUuog96A=="
+  "resolved" "https://registry.npmjs.org/scheduler/-/scheduler-0.0.0-9209c30ff.tgz"
+  "version" "0.0.0-9209c30ff"
   dependencies:
     "loose-envify" "^1.1.0"
     "object-assign" "^4.1.1"
