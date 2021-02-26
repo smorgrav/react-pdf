@@ -3,7 +3,7 @@
 import ReactFiberReconciler from 'react-reconciler';
 import {
   unstable_scheduleCallback as schedulePassiveEffects,
-  unstable_cancelCallback as cancelPassiveEffects
+  unstable_cancelCallback as cancelPassiveEffects,
 } from 'scheduler';
 
 import { createInstance } from './elements';
@@ -109,6 +109,10 @@ const PDFRenderer = ReactFiberReconciler({
 
   commitUpdate(instance, updatePayload, type, oldProps, newProps) {
     instance.update(newProps);
+  },
+
+  clearContainer(container) {
+    console.log(container);
   },
 });
 
