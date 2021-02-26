@@ -112,7 +112,7 @@ const PDFRenderer = ReactFiberReconciler({
   },
 
   clearContainer(container) {
-    console.log(container);
+    // Noop until I figure out where this is significant
   },
 });
 
